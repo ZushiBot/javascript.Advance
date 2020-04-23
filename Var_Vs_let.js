@@ -52,4 +52,4 @@ console.log(a);
 */
 
 //when let variable is dicleared (as parent), No child can use that variable (name) again 
-//for (int i=0;i<n;i++):::::::::for(let i=0;i<n;i++):::::::::::::://
+//for (int i=0;i<n;i++):::::::::for(let i=0;i<n;i++)::::::::::::::
