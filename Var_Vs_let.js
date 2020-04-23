@@ -11,12 +11,16 @@ function ac(){
     let a=3;
     console.log("3",a);
 }
+function last(){
+    console.log(a);
+}
 aa();// X
 console.log(a);
 ab();// Changed
 console.log(a);
 ac();// X
 console.log(a);
+last();
 
 /*
 let a=5;
@@ -39,3 +43,5 @@ console.log(a);
 ac();// X
 console.log(a);
 */
+
+//when let variable is dicleared (as parent), No child can use that variable (name) again 
