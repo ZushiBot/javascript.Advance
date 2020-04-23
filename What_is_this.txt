@@ -1,0 +1,21 @@
+What is 'this' ?
+
+As Example:
+
+console.log(this);
+
+result => window{parent:window};
+
+because =>mainly console.log is from window
+
+    window.console.log(this);
+        where is console.log ? at window object
+        
+        
+Example 2 :
+
+        const object={
+            a: function(){
+                console.log(this);
+            }
+        }
